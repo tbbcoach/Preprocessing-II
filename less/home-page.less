@@ -1,4 +1,9 @@
-.home {
+//.home {
+
+  .bus {
+    width: 60%;
+    margin-left: 20%;
+  }
 
 
   .content-section {
@@ -6,6 +11,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media(max-width: 500px ) {
+      flex-direction: column;
+      flex-wrap: none;
+      margin-left: 10%;
+    }
 
    
     
@@ -54,12 +65,22 @@
     display: flex;
     justify-content: space-between;
 
+    @media(max-width: 500px) {
+      flex-direction: column;
+      margin-left: 10%;
+    }
+
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      @media(max-width: 500px) {
+        width: 80%;
+        margin-bottom: 20px;
+      }
     }
     .btn {
-      .button-style()
+      .button-style(teal, white)
     }
   }
-}// home
+//}// home

@@ -1,9 +1,9 @@
 // Mixins in here
-.button-style() {
+.button-style(@bgcolor, @color) {
     border: 1px solid black;
     padding: 2% 2%;
-    background-color: teal;
-    color: white;
+    background-color: @bgcolor;
+    color: @color;
     text-align: center;
     font-size: 2rem;
     text-emphasis: bold;
