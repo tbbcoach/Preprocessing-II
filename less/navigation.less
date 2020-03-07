@@ -7,6 +7,10 @@ header {
     padding-bottom: 2%;
     border-bottom: 2px dashed grey;
 
+    @media(max-width: 500px) {
+        flex-direction: column;
+    }
+
     div {
         margin-left: 28%;
         width: 150px;
@@ -29,6 +33,12 @@ header {
             color: black;
             font-size: 1.5rem;
             padding: 0 2%;
+
+            @media(max-width: 500px) {
+                justify-content: space-between;
+                width: 100px;
+                padding: none;
+            }
         
         }
     }
