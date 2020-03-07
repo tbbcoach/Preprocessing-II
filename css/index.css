@@ -172,6 +172,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  padding-bottom: 2%;
   border-bottom: 2px dashed grey;
 }
 header div {
